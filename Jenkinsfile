@@ -7,7 +7,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello !! Sanjeev . Welcome to Internship program'
+                sh perftest.sh
+             
             }
         }
     }
